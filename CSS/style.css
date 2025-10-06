@@ -23,6 +23,7 @@ p{
     display: inline;
     font-size: 13px;
     margin-bottom: 1em;
+    font-weight: bold;
 }
 
 .img-product {
@@ -41,7 +42,7 @@ figcaption{
 /* CCS GENERAL LAYOUT*/
 
 header{
-    background-color: orange;
+    background-color: rgb(255, 106, 0);
 }
 
 .container-boxed{
@@ -62,7 +63,7 @@ header{
 }
 
 #logo-header{
-    max-height: 22px;
+    max-height: 20px;
 }
 
 .column{
@@ -106,13 +107,6 @@ main{
    
 }
 
-.card{
-    min-height: 400px;
-    background-color: crimson;
-    
-}
-
-
 
 .label-discount{
 
@@ -123,6 +117,7 @@ main{
     top: 75%;
     left: 0px;
     font-size: 10px;
+    font-weight: bold;
 }
 
 .label-sustainability{
@@ -134,6 +129,19 @@ main{
     top: 75%;
     left: 45px;
     font-size: 10px;
+    font-weight: bold;
+}
+
+.label-sustainability-left{
+
+    background-color: green;
+    color: white;
+    padding: 2px 10px;
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .heart{
@@ -144,3 +152,22 @@ main{
     left: 90%;
     font-size: 20px;
 }
+
+.heart:hover{
+    color: red;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.card{
+    position: relative;
+}
+
+.card:hover{
+    opacity: calc(25%);
+}
+
