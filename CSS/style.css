@@ -21,6 +21,7 @@ header{
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .navbar{
@@ -36,22 +37,45 @@ header{
     height: 22px;
 }
 
+.column{
+    width: 30%;
 
+}
 
-.lef-column{
-    width: 33%;
+.text-left{
+    
     text-align: left;
 }
 
-.center-column{
-    width: 33%;
+.text-center{
+    
     text-align: center;
   
   
 }
 
-.right-column{
-    width: 33%;
+.text-right{
+    
     text-align: right;
+
+
+}
+
+main{
+    margin-top: 2em;
+}
+
+
+.card{
+    min-height: 400px;
+    background-color: crimson;
+}
+
+.card-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
 }
 
