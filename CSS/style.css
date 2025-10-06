@@ -1,0 +1,57 @@
+/* CSS GENERAL UTILITIES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* CCS GENERAL LAYOUT*/
+
+header{
+    background-color: orange;
+}
+
+.container-boxed{
+
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    padding: 1em;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+
+}
+
+#logo-header{
+    height: 22px;
+}
+
+
+
+.lef-column{
+    width: 33%;
+    text-align: left;
+}
+
+.center-column{
+    width: 33%;
+    text-align: center;
+  
+  
+}
+
+.right-column{
+    width: 33%;
+    text-align: right;
+}
+
